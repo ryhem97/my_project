@@ -55,7 +55,7 @@ const App = () => {
 
   const handleSearch = (event) => {
     setSearchTerm(event);
-  };
+  };  
 
   const searchedStories = stories.filter(function (story) {
     return story.title.toLowerCase().includes(searchTerm.toLowerCase());
